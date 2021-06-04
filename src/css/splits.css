@@ -1,0 +1,29 @@
+.splits {
+  padding-top: 163px;
+  padding-bottom: 171px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.splits__topBtn {
+  width: 107px;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #F7F2E4;
+  border-radius: 63.959px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto 31px;
+}
+.splits img {
+  margin-right: 7px;
+}

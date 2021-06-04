@@ -1,0 +1,89 @@
+@import "../../src/lbr/owl/owl.carousel.min.css";
+@import "../../src/lbr/owl/owl.theme.default.min.css";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto Light" , sans-serif;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home{
+  margin-top: 131px;
+  padding-bottom: 129px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 68px;
+    width: 825px;
+    margin-bottom: 34px;
+    /* or 106% */
+
+    text-align: center;
+
+    color: #191919;
+  }
+  &__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    width: 613px;
+    margin-bottom: 36px;
+    /* or 140% */
+
+    text-align: center;
+
+    color: #191919;
+
+  }
+  &-form{
+    max-width: 476px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    &__label{
+      width: 100%;
+    }
+    &__start{
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      background: #7352FF;
+      border-radius: 21px;
+      padding: 21px 40px 21px 49px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-style: normal;
+      font-size: 12px;
+      line-height: 14px;
+      /*identical to box height*/
+    }
+    &__email{
+      width: 100%;
+      background: #FFFFFF;
+      border: 1px solid #7352FF;
+      box-sizing: border-box;
+      border-radius: 19.9872px;
+      padding: 21px 150px 21px 31px;
+      outline: none;
+    }
+  }
+
+}
+
+@import "splits";
